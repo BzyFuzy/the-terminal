@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Menlo", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.wr {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/img/back.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.t-body {
+  height: 95%;
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #2e2e2e;
+}
+
+.t-head {
+  display: flex;
+  background-color: #0c0c0c;
+  border: 1px solid #2e2e2e;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.tp {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: 0px 0.5em;
+  font-size: 1.75em;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  padding: 0px 1em;
+  border: 1px solid #2e2e2e;
+  border-bottom: none;
+}
+
+.tab.active {
+  display: flex;
+  background-color: #000;
+  height: 100%;
+  padding: 0px 2em;
+}
+
+.t-line {
+  display: flex;
+  padding: 10px 0px 0px 20px;
+}
+
+.g-t {
+  color: #7af84a;
+  font-weight: 600;
+  margin-right: 1em;
+  white-space: nowrap;
+}
+
+.w-c {
+  display: flex;
+  margin: 15px 10px;
+  gap: 5px;
+}
+
+.r-c {
+  height: 1em;
+  width: 1em;
+  border-radius: 100%;
+  background-color: #eb695d;
+  cursor: pointer;
+}
+
+.y-c {
+  height: 1em;
+  width: 1em;
+  border-radius: 100%;
+  background-color: #f4bd4e;
+  cursor: pointer;
+}
+
+.g-c {
+  height: 1em;
+  width: 1em;
+  border-radius: 100%;
+  background-color: #61c454;
+  cursor: pointer;
+}
+
+.blinking-cursor {
+  font-weight: bold;
+  color: #fff;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+
+  50% {
+    color: #fff;
+  }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+
+  50% {
+    color: #fff;
+  }
+}
+
+@-webkit-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+
+  50% {
+    color: #fff;
+  }
+}
+
+@-ms-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+
+  50% {
+    color: #fff;
+  }
+}
+
+@-o-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+
+  50% {
+    color: #fff;
+  }
+}
+
+input {
+  /* display: flex; */
+  width: 1ch;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1em;
+  font-family: "Menlo", sans-serif;
+}
+
+/* .my-input {
+  caret-color: ;
+} */
+
+input:focus {
+  outline: none;
+}
+
+.hidden {
+  color: transparent;
+}

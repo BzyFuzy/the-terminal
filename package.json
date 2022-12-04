@@ -1,0 +1,13 @@
+{
+  "name": "the-terminal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BzyFuzy/the-terminal.git",
+  "author": "bzyfuzy",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
